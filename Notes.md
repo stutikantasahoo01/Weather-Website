@@ -1,0 +1,2 @@
+# window.Date
+# Usually, you just see new Date(). Adding window. ensures you are using the built-in browser tool for dates. As we discussed, this is a safety measure in case you (or a library you imported) accidentally named something else "Date," which would "shadow" or block the original one.
