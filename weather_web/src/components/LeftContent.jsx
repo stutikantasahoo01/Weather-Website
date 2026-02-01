@@ -14,7 +14,7 @@ const LeftContent = () => {
 
   return (
     <div className="w-1/3 flex flex-col justify-center items-center gap-10 p-3 h-80 ">
-      <div className="flex flex-col justify-baseline gap-2">
+      <div className="flex flex-col justify-center items-center gap-2">
         <h1 className="text-4xl font-bold"> {finalTemp}°C</h1>
         <h2 className="text-3xl font-bold mt-4">{CodeInfo.label}</h2>
       </div>
