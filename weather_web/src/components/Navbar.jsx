@@ -54,7 +54,7 @@ const Navbar = () => {
       </h3>
       <div className="flex items-center justify-center gap-3 ">
         <input
-          className="px-8 py-5 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
+          className="px-8 py-2 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
           type="search"
           value={City}
           onChange={(e) => {
@@ -69,7 +69,7 @@ const Navbar = () => {
         />
         <button
           onClick={handleSubmit}
-          className="px-3 py-4 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
+          className="px-3 py-2 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
         >
           Submit
         </button>
