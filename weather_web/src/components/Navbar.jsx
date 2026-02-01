@@ -54,7 +54,7 @@ const Navbar = () => {
       </h3>
       <div className="flex gap-3 ">
         <input
-          className="px-8 py-3 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
+          className="px-8 py-4 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
           type="search"
           value={City}
           onChange={(e) => {
@@ -75,7 +75,7 @@ const Navbar = () => {
         </button>
       </div>
       <button
-        className={`px-5 py-2 text-black border-white bg-amber-100 rounded-xl `}
+        className={`px-5 py-4 text-black border-white bg-amber-100 rounded-xl `}
       >
         <SunMoon size={20} strokeWidth={2} />
       </button>
