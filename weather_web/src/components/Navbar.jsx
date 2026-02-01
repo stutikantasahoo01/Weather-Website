@@ -52,7 +52,7 @@ const Navbar = () => {
         <MapPin strokeWidth={1.45} size={15} />
         {CityName}
       </h3>
-      <div className="flex gap-3 ">
+      <div className="flex items-center justify-center gap-3 ">
         <input
           className="px-8 py-5 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
           type="search"
