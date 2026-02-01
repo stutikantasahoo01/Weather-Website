@@ -54,7 +54,7 @@ const Navbar = () => {
       </h3>
       <div className="flex gap-3 ">
         <input
-          className="px-8 py-4 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
+          className="px-8 py-5 text-black border-white bg-amber-100 rounded-2xl border-none outline-none font-medium "
           type="search"
           value={City}
           onChange={(e) => {
@@ -69,14 +69,12 @@ const Navbar = () => {
         />
         <button
           onClick={handleSubmit}
-          className="px-3 py-5 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
+          className="px-3 py-4 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
         >
           Submit
         </button>
       </div>
-      <button
-        className=" flex items-center justify-center px-5 py-4 text-black border-white bg-amber-100 rounded-xl"
-      >
+      <button className=" flex items-center justify-center px-5 py-4 text-black border-white bg-amber-100 rounded-xl">
         <SunMoon size={20} strokeWidth={2} />
       </button>
     </div>
