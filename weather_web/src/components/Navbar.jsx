@@ -69,7 +69,7 @@ const Navbar = () => {
         />
         <button
           onClick={handleSubmit}
-          className="px-3 py 2 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
+          className="px-3 py-3 font-semibold flex items-center justify-center text-black border-white bg-amber-100 rounded-xl  active:scale-90"
         >
           Submit
         </button>
