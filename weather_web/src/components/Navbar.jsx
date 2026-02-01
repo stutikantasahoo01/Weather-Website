@@ -69,12 +69,12 @@ const Navbar = () => {
         />
         <button
           onClick={handleSubmit}
-          className="px-3 py-2 font-semibold flex items-center justify-center text-[#ffffff] border-white bg-[#3b82f6] rounded-xl  active:scale-90"
+          className="px-3 py-2 font-semibold flex items-center justify-center text-[#ffffff] border-white bg-[#40513B] rounded-xl  active:scale-90"
         >
           Submit
         </button>
       </div>
-      <button className=" flex items-center justify-center px-5 py-4 text-black border-white bg-amber-100 rounded-xl">
+      <button className=" flex items-center justify-center px-5 py-4 text-[#ffffff] border-white bg-[#40513B] rounded-xl">
         <SunMoon size={20} strokeWidth={2} />
       </button>
     </div>
